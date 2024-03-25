@@ -79,5 +79,10 @@
     "moment": "2.29.4",
     "underscore": "1.13.6",
     "url-parse": "1.5.10"
+  },
+  "exports": {
+    "./downstream-electron-be.js": "./api/downstream-electron-be.js",
+    "./downstream-electron-fe.js": "./api/downstream-electron-fe.js",
+    "./downstream-electron-preload.js": "./api/downstream-electron-preload.js"
   }
 }
